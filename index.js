@@ -24,7 +24,7 @@ cloudinary.config({
   api_secret: process.env.CLODUINARY_API_SECRET,
   secure: true,
 });
-
+// je créer une route de bienvenue
 app.get("/", (req, res) => {
   res.json("Bienvenue sur mon serveur🚀");
 });
